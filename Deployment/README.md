@@ -62,7 +62,6 @@ nginx-deployment-3167673210   0         0         0       30s
 - 使用 Pod 的 Health Check 机制检查应用的运行状态，而不是依赖容器的 Running 状态。
 - Deployment Controller 确保在任何时间窗口内，只有指定比例的 Pod 处于离线状态，只有指定比例的新 Pod 被创建。这两个比例可以配置，默认是 DESIRED 的值 25%。
 
-
 ```yaml
 kubectl create -f nginx-deployment.yaml --record # 记录每次操作所执行的命令
 
