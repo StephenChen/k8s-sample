@@ -71,3 +71,5 @@ kubectl rollout status deployment/nginx-deployment
 
 kubectl get rs
 ```
+
+Canary Deployment & Blue-Green Deployment
