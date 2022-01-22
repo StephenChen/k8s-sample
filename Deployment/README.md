@@ -73,5 +73,3 @@ kubectl get rs
 ```
 
 Canary Deployment & Blue-Green Deployment
-
-- 
